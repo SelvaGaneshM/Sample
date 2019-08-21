@@ -5,7 +5,7 @@ import android.widget.EditText;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class MainActivity extends AppCompatActivity {
+public class MainData extends AppCompatActivity {
 
 
     @Override

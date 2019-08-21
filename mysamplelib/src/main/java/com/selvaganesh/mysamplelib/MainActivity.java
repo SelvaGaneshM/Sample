@@ -5,6 +5,9 @@ import android.widget.EditText;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.selvaganesh.mysamplelibr.R;
+
+
 public class MainActivity extends AppCompatActivity {
 
     private EditText edtUserName, edtMobileNumeber, edtState;
