@@ -1,4 +1,4 @@
-package com.selvaganesh.dependencyjar;
+package com.selvaganesh.mysamplelib;
 
 import android.content.Context;
 import android.text.Spannable;
@@ -6,7 +6,6 @@ import android.text.SpannableStringBuilder;
 import android.text.style.ForegroundColorSpan;
 
 import androidx.core.content.ContextCompat;
-
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

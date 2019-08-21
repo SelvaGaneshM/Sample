@@ -1,4 +1,4 @@
-package com.selvaganesh.dependencyjar;
+package com.selvaganesh.mysamplelib;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -15,7 +15,6 @@ import android.widget.Toast;
 import androidx.core.content.res.ResourcesCompat;
 
 import java.text.DecimalFormat;
-
 
 
 public class UiUtils {
@@ -154,7 +153,7 @@ public class UiUtils {
 
     public static void setHtmlString(TextView textView, String msg) {
         String message = TextUtils.getString(msg);
-        if (android.os.Build.VERSION.SDK_INT < Build.VERSION_CODES.N) {
+        if (Build.VERSION.SDK_INT < Build.VERSION_CODES.N) {
             textView.setText(Html.fromHtml(message));
         } else {
             textView.setText(Html.fromHtml(message, Html.FROM_HTML_MODE_COMPACT));
