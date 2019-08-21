@@ -1,9 +1,11 @@
 package com.selvaganesh.dependencyjar;
 
+import android.content.Intent;
 import android.os.Bundle;
-import android.widget.EditText;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.selvaganesh.mysamplelib.MainActivity;
 
 public class MainData extends AppCompatActivity {
 
@@ -11,7 +13,9 @@ public class MainData extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity);
+
+        startActivity(new Intent(this, MainActivity.class));
 
     }
 }
